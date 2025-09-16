@@ -24,11 +24,12 @@ body {
   margin-bottom: 20px;
 }
 
-/* Profile image */
-.avatar {
-  border-radius: 50%; /* makes image round */
-  width: 150px;
-  height: 150px;
+#profilePic {
+  width: 150px;           /* size of the image */
+  height: 150px;          /* make it square */
+  border-radius: 50%;     /* makes it circular */
+  object-fit: cover;      /* ensures image fills the circle without stretching */
+  border: 3px solid #ccc; /* optional border like social media */
 }
 
 /* Section boxes */
@@ -56,4 +57,5 @@ button {
 button:hover {
   background: #45a049;
 }
+
 
