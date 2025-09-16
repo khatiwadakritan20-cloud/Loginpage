@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <!-- Linking external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Profile Section -->
+  <div class="profile">
+    <!-- Profile Picture -->
+    <img src="c:\Users\C l house\Desktop\pratice html css\download (1).jfif" alt="My Photo" class="avatar">
+
+    <!-- Name (click to show social links) -->
+    <a href="https://www.facebook.com/share/16xzWCgnLT/?mibextid=wwXIfr" target="_blank">
+  <h1 id="name">Kritan Khatiwoda</h1>
+</a>
+
+    <p>Frontend Developer</p>
+  </div>
+
+  <!-- Education Section -->
+  <div class="section">
+    <h2>Education</h2>
+
+    <!-- School (click to visit website) -->
+    <p>
+      <a href="https://www.stxavier.edu/" target="_blank">St. Xavier Higher Secondary School</a>
+    </p>
+
+    <!-- College (click to visit website) -->
+    <p>
+      <a href="https://www.kathmandu.edu.np/" target="_blank">Kathmandu College of Technology</a>
+    </p>
+
+    <!-- Button to reveal degree -->
+    <button id="educationBtn">Show Degree</button>
+    <p id="degree" style="display:none;">BSc in Computer Science (2016-2020)</p>
+  
+  </div>
+
+  <!-- Address Section -->
+  <div class="section">
+    <h2>Address</h2>
+    <p>Madhavpur, Chitwan</p>
+    <a href="https://maps.apple.com/place?coordinate=27.652970,84.529614&name=Kritan%20Khatiwoda%20%E2%80%99s%20Location&map=h" target="_blank"><button id="addressBtn">view map</button></a>
+    
+  </div>
+
+  <!-- JavaScript for interactions -->
+  <script>
+    // Show social media when clicking name
+    document.getElementById("name").onclick = function() {
+      alert("GitHub: github.com/placeholder\nLinkedIn: linkedin.com/in/placeholder\nTwitter: @placeholder");
+    };
+
+    // Show degree when clicking button
+    document.getElementById("educationBtn").onclick = function() {
+      document.getElementById("degree").style.display = "block";
+    };
+
+    // Show address when clicking button
+    document.getElementById("addressBtn").onclick = function() {
+      document.getElementById("address").style.display = "block";
+    };
+  </script>
+
+</body>
+</html>

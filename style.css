@@ -1,0 +1,59 @@
+a {
+ text-decoration: none;  /* removes underline */ /* removes underline */
+  color: rgba(0, 0, 0, 0.925);           /* default color */
+  font-size: 14px;        /* make text bigger */
+  
+}
+
+a:hover {
+  color: rgb(43, 43, 226);            /* turns blue on hover */
+  cursor: pointer;        /* pointer cursor on hover */
+}
+
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Profile section */
+.profile {
+  margin-bottom: 20px;
+}
+
+/* Profile image */
+.avatar {
+  border-radius: 50%; /* makes image round */
+  width: 150px;
+  height: 150px;
+}
+
+/* Section boxes */
+.section {
+  background: white;
+  padding: 15px;
+  margin: 15px auto;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Button hover effect */
+button:hover {
+  background: #45a049;
+}
+
